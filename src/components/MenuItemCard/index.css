@@ -1,0 +1,103 @@
+.menu-card-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-right: 35px;
+  margin-bottom: 35px;
+  padding: 22px;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.food-image {
+  height: 130px;
+  border-radius: 10px;
+}
+
+.food-item-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.food-name {
+  color: #12022f;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.food-icon {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.veg-icon {
+  color: green;
+}
+
+.non-veg-icon {
+  color: red;
+}
+
+.food-cost {
+  color: #12022f;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+  margin-left: 12px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.quantity-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.quantity {
+  color: #12022f;
+  font-size: 16px;
+  margin-left: 12px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+.icon {
+  height: 18px;
+  width: 18px;
+}
+
+.food-cost-and-quantity-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.add-btn {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-image: linear-gradient(#d0b200, #a58d00);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 48px;
+  height: 30px;
+  width: 100%;
+}

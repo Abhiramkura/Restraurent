@@ -1,0 +1,181 @@
+.orders-heading {
+  color: #12022f;
+  font-family: "lobster";
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.empty-oredr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #ffffff;
+}
+
+.order-img {
+  background-color: #ffffff;
+  height: 200px;
+}
+
+.empty-order-desc {
+  color: #12022f;
+  font-family: "lobster";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.order-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.orders-sec-heading {
+  color: #12022f;
+  font-family: "Roboto";
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.order-desc {
+  color: #12022f;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.order-items-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 20px;
+  width: 50%;
+}
+
+.order-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.order-item-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.name-type-of-food-div {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  align-items: center;
+}
+
+.order-image {
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.order-item-desc {
+  margin-bottom: 10px;
+  color: #12022f;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.veg-food-icon {
+  height: 30px;
+  width: 30px;
+  color: green;
+  margin-left: 15px;
+  margin-top: 14px;
+}
+
+.non-veg-food-icon {
+  height: 30px;
+  width: 30px;
+  color: red;
+  margin-left: 15px;
+  margin-top: 14px;
+}
+
+.order-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.order-staus-head {
+  color: #12022f;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.order-staus-desc {
+  color: #12022f;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-left: 14px;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 45px;
+  margin-bottom: 25px;
+}
+
+.order-summ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+
+.desc {
+  margin: 0px;
+  color: #12022f;
+  font-family: "Roboto";
+}
+
+.btn-3 {
+  margin-left: 45px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  height: 35px;
+}
+
+.time-cont {
+  margin-left: 15px;
+}
+
+.time {
+  color: #12022f;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.order-placed-name {
+  margin-left: 12px;
+  font-family: "Roboto";
+}
+
+.name-of-customer {
+  color: #12022f;
+  font-weight: bold;
+  font-size: 16px;
+}
